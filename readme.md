@@ -16,14 +16,10 @@ This repo contains all the practice projects, components, hooks, and experiments
 
 ```bash
 .
-├── 01-basic-components/
-├── 02-useState-practice/
-├── 03-props-and-hooks/
-├── 04-project-currency-converter/
 ├── components/
 ├── hooks/
 ├── public/
 ├── src/
 │   └── App.jsx
 ├── package.json
-└── README.md
+└README.md
