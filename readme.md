@@ -44,20 +44,24 @@ Edit
 Inside any project folder (like `currency converter/`):
 
 currency converter/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── hooks/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-├── eslint.config.js
-└── README.md (optional)
+│
+├── public/                     # Static assets (favicon, etc.)
+│
+├── src/                        # Source code folder
+│   ├── assets/                 # Images, icons, etc.
+│   ├── components/             # Reusable UI components (e.g., Input.jsx)
+│   ├── hooks/                  # Custom React hooks (e.g., useCurrencyInfo.js)
+│   ├── App.jsx                 # Root React component
+│   ├── App.css                 # Component-level styling
+│   ├── index.css               # Global Tailwind/custom styles
+│   └── main.jsx                # App entry point
+│
+├── index.html                  # HTML template
+├── package.json                # Project dependencies and scripts
+├── vite.config.js              # Vite configuration
+├── eslint.config.js            # Linting rules
+└── README.md                   # Project-specific documentation (optional)
+
 
 ---
 
