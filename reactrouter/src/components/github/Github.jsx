@@ -21,6 +21,6 @@ export default Github
 
 export let GithubLoad = async () => {
     let res = await fetch('https://api.github.com/users/BlackArch0')
-    let data = res.json()
+    let data = await res.json()
     return data
 }
