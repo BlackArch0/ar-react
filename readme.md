@@ -41,24 +41,19 @@ react-learning/
 
 Inside any project folder (like `currency converter/`):
 
-currency converter/
-│
-├── public/                      # Static assets (favicon, etc.)
-│
-├── src/                         # Source code folder
-│   ├── assets/                  # Images, icons, etc.
-│   ├── components/              # Reusable UI components (e.g., Input.jsx)
-│   ├── hooks/                   # Custom React hooks (e.g., useCurrencyInfo.js)
-│   ├── App.jsx                  # Root React component
-│   ├── App.css                  # App-level styling
-│   ├── index.css                # Global styles (Tailwind/custom)
-│   └── main.jsx                 # React entry point
-│
-├── index.html                   # HTML template
-├── package.json                 # Project dependencies and scripts
-├── vite.config.js               # Vite configuration
-├── eslint.config.js             # ESLint setup
-└── README.md                    # Project-specific documentation (optional)
+```bash
+.
+├── 01-basic-components/
+├── 02-useState-practice/
+├── 03-props-and-hooks/
+├── 04-project-currency-converter/
+├── components/
+├── hooks/
+├── public/
+├── src/
+│   └── App.jsx
+├── package.json
+└── README.md
 
 
 
