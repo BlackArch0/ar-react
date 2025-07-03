@@ -30,13 +30,13 @@ By [Hitesh Choudhary](https://www.youtube.com/@HiteshChoudhary)
 ---
 
 ## 🧾 Folder Structure
-
+```bash
 react-learning/
 │
 ├── currency converter/ # Project: Currency Converter
 ├── pass-gen/ # Project: Password Generator
 ├── README.md # This file
-
+```
 
 
 Inside any project folder (like `currency converter/`):
