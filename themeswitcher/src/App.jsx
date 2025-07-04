@@ -5,7 +5,7 @@ import ThemeBtn from "./components/ThemeBtn";
 import Card from "./components/Card";
 
 function App() {
-  let [theme, setTheme] = useState("light")
+  let [themeMode, setTheme] = useState("light")
   let lightTheme = () => {
     setTheme("light")
   }
@@ -14,8 +14,8 @@ function App() {
   }
   useEffect(()=>{
     document.querySelector('html').classList.remove("light", "dark")
-    document.querySelector('html').classList.add(theme)
-  }, [theme])
+    document.querySelector('html').classList.add(themeMode)
+  }, [themeMode])
   return (
     <ThemeProvider value={{themeMode, darkTheme, lightTheme}}>
       <div className="flex flex-wrap min-h-screen items-center">
