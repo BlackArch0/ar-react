@@ -158,6 +158,36 @@ public static void main(String[] args){
   // for (String i : arr) {
   //   System.out.println(i);
   // }
+ //OOPS***********
+ // Encapsulation
+// public class Car {
+//    private int speed;
+//     private String color;
+
+//     public Car(String color){
+//         this.color = color;
+//     }
+//      public void Speed(int speed){
+//         if(speed < 0){
+//             System.out.println("impossible lmao");
+//         }else{
+//         this.speed = speed;
+//         System.out.println("driving at" +" " + speed);
+//         }
+//      }
+//     void drive(){
+//         System.out.println("Driving.....");
+//     }
+// }
+
+// public class Test {
+//     public static void main(String[] args) {
+//         Car car = new Car("Green");
+//         car.Speed(-1);
+//         car.Speed(120);
+//         car.drive();
+//     }
+// }
 
 }
     
